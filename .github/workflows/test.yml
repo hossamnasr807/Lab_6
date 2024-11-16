@@ -26,7 +26,7 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m unittest discover -s . -p "test_addition.py"
+        python -m unittest discover -s . -p "Test_addition.py"
 
   deploy:
     needs: test
